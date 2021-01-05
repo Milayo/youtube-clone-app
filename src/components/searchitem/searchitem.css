@@ -1,0 +1,27 @@
+
+.search-item{
+	display: flex;
+	margin-bottom: 15px;
+}
+
+.search-item > img {
+	margin-right: 10px;
+}
+
+.other-info {
+	display: flex;
+}
+
+.other-info > span {
+	margin-right: 8px;
+	margin-bottom: 5px;
+	font-weight: 400;
+}
+
+.video-info {
+	padding-top: 25px;
+}
+
+.video-info > h3 {
+	font-weight: 400;
+}

@@ -1,0 +1,12 @@
+.signinpage {
+	flex-basis: 45%;
+}
+
+.signin {
+	display: flex;
+}
+
+
+.row {
+	padding: 80px;
+}

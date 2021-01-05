@@ -1,0 +1,15 @@
+.search-items {
+	background-color: #f9f9f9;
+	padding: 40px 20px;
+	padding-bottom: 0;
+	flex-basis: 80%;
+	margin-top: 10px;
+}
+
+h3 {
+	margin-bottom: 15px;
+}
+
+.searchpage {
+	display: flex;
+}

@@ -1,0 +1,28 @@
+.header {
+	display: flex;
+	align-items: center;
+	justify-content: space-around;
+}
+
+.header-icon {
+	cursor: pointer;
+	
+}
+
+
+.header-b {
+	color: red;
+	object-fit: contain;
+	
+}
+
+.header-d,
+.header-f,
+.header-g {
+	margin-right: -50px;
+}
+
+.header-name {
+	margin-left: -87px;
+	
+}

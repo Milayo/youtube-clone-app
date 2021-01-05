@@ -1,0 +1,13 @@
+.page_videos {
+	background-color: #f9f9f9;
+	padding: 40px 20px;
+	padding-bottom: 0;
+	flex-basis: 80%;
+	margin-top: 10px;
+}
+
+.page_items {
+	display: flex;
+	flex-wrap: wrap;
+
+}
