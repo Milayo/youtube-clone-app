@@ -1,10 +1,11 @@
 import React from "react";
+import { Link } from "react-router-dom";
 import "./videocard.css";
 
-const VideoCard = ({ title, image, timestamp, channel, channelImage }) => {
+const VideoCard = ({ videoId, title, image, timestamp, channel, channelImage }) => {
 	return (
 		<div className="video_item_card">
-			<img src={image} alt={title} className="video_item_image" />
+			<Link to={`/video-page/${videoId}`}><img src={image} alt={title} className="video_item_image"/></Link>
 			<div className="item_info">
 				<img src={channelImage} alt="{channel}" className="item_avi" />
 				<div className="item_text">

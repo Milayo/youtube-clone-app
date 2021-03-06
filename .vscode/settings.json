@@ -1,0 +1,7 @@
+{
+    "editor.formatOnSave": true,
+    "editor.fontLigatures": true,
+    "ligaturesLimited.compactScopeDisplay": true,
+    "path-intellisense.extensionOnImport": true,
+    "path-intellisense.autoSlashAfterDirectory": true,
+}

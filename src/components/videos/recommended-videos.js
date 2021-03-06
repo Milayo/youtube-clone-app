@@ -19,7 +19,7 @@ class Videos extends Component {
 	componentDidMount() {
 		axios
 			.get(
-				`https://www.googleapis.com/youtube/v3/videos?chart=mostPopular&key=${process.env.REACT_APP_YOUTUBE_API_KEY}&part=snippet&maxResults=24`
+				`https://www.googleapis.com/youtube/v3/videos?chart=mostPopular&key=${process.env.REACT_APP_YOUTUBE_API_KEY}&part=snippet&player&maxResults=24`
 			)
 			.then((response) => {
 				console.log(response.data.items);
@@ -75,6 +75,7 @@ class Videos extends Component {
 						return (
 							<VideoCard
 								key={item.videoId}
+								videoId={item.videoId}
 								title={item.videoTitle}
 								image={item.videoImage}
 								timestamp={item.videoTimeStamp}

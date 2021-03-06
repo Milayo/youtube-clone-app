@@ -10,6 +10,8 @@ import Header from "./components/header/header.js";
 import HomePage from "./components/homepage/homepage.js";
 import SearchPage from "./components/searchpage/searchpage.jsx";
 import SignInSignUpPage from "./components/sign-in-sign-up-page/signin-signup.jsx";
+import TrendingPageVideo from "./components/trending-page/trending-page.jsx";
+import VideoPage from "./components/video-page/video-page.jsx";
 
 class App extends Component {
 	constructor(props) {
@@ -108,7 +110,12 @@ class App extends Component {
 				/>
 				<Switch>
 					<Route exact path="/" component={HomePage} />
-					<Route path="/signin-signup" component={SignInSignUpPage}/>
+					<Route path="/signin-signup" component={SignInSignUpPage} />
+					<Route
+						path={`/video-page/:videoId`}
+						component={VideoPage}
+					/>
+					<Route path="/trending" component={TrendingPageVideo} />
 					<Route
 						path="/search"
 						render={() => (

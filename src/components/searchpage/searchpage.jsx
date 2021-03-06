@@ -21,6 +21,7 @@ const SearchPage = ({
 					searchPage.map((item) => {
 						return (
 							<SearchItem
+							    item={item}
 								key={item.key}
 								videoTitle={item.videoTitle}
 								videoDescription={item.videoDescription}

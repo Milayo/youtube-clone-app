@@ -10,9 +10,11 @@
     "mdbreact": "5.0.0",
     "react": "^17.0.1",
     "react-dom": "^17.0.1",
+    "react-player": "^2.7.2",
     "react-redux": "^7.2.2",
     "react-router-dom": "^5.2.0",
     "react-scripts": "4.0.1",
+    "react-youtube": "^7.13.0",
     "redux": "^4.0.5",
     "redux-logger": "^3.0.6",
     "swiper": "^6.4.5"
